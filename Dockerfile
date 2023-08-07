@@ -8,7 +8,7 @@ RUN mvn clean package -DskipTests
 #
 # Package stage
 #
-FROM openjdk:20
+FROM openjdk:8
 COPY --from=build /target/learning-spring-0.0.1-SNAPSHOT.jar learning_spring.jar
 # ENV PORT=8080
 EXPOSE 8080
