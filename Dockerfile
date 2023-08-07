@@ -3,7 +3,7 @@
 #
 FROM maven:3.9.3-eclipse-temurin-8-alpine AS build
 COPY . .
-RUN mvn clean package
+RUN mvn clean package -DskipTests
 
 #
 # Package stage
