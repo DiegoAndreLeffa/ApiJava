@@ -16,7 +16,7 @@ A tabela "User" armazena informações sobre os usuários.
 | email     | VARCHAR    | Endereço de e-mail do usuário.             |
 | password  | VARCHAR    | Senha do usuário (criptografada).          |
 | balance   | FLOAT      | Saldo do usuário.                          |
-| type      | VARCHAR    | Tipo do usuário ("commun" ou "seller").    |
+| type      | VARCHAR    | Tipo do usuário ("COMMUN" ou "SELLER").    |
 
 ### Tabela Transaction
 
@@ -71,7 +71,7 @@ Parâmetros de entrada:
   - `email`: Novo endereço de e-mail do usuário.
   - `password`: Nova senha do usuário.
   - `balance`: Novo saldo do usuário.
-  - `type`: Novo tipo do usuário ("commun" ou "seller").
+  - `type`: Novo tipo do usuário ("COMMUN" ou "SELLER").
 
 #### 4. Excluir Usuário
 
