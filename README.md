@@ -36,7 +36,7 @@ A tabela "Transaction" armazena informações sobre transações.
 
 #### 1. Criar Usuário
 
-Endpoint: `POST /api/user`
+Endpoint: `POST /users`
 
 Cria um novo usuário.
 
@@ -50,7 +50,7 @@ Parâmetros de entrada:
 
 #### 2. Ler Usuário
 
-Endpoint: `GET /api/user/{id}`
+Endpoint: `GET /users/{id}`
 
 Recupera informações de um usuário específico.
 
@@ -59,7 +59,7 @@ Parâmetros de entrada:
 
 #### 3. Atualizar Usuário
 
-Endpoint: `PUT /api/user/{id}`
+Endpoint: `PUT /users/{id}`
 
 Atualiza as informações de um usuário.
 
@@ -75,7 +75,7 @@ Parâmetros de entrada:
 
 #### 4. Excluir Usuário
 
-Endpoint: `DELETE /api/user/{id}`
+Endpoint: `DELETE /users/{id}`
 
 Exclui um usuário.
 
@@ -84,7 +84,7 @@ Parâmetros de entrada:
 
 #### 5. Criar Depósito
 
-Endpoint: `POST /api/user/{id}/deposit`
+Endpoint: `POST /users/{id}/deposit`
 
 Realiza um depósito na conta de um usuário.
 
@@ -96,7 +96,7 @@ Parâmetros de entrada:
 
 #### 1. Criar Transação
 
-Endpoint: `POST /api/transaction`
+Endpoint: `POST /transactions`
 
 Cria uma nova transação.
 
@@ -108,6 +108,6 @@ Parâmetros de entrada:
 
 #### 2. Recuperar Transação
 
-Endpoint: `GET /api/transaction/{id}`
+Endpoint: `GET /transactions/{id}`
 
 Recupera informações de uma transação específica.
